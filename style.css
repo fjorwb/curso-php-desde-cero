@@ -1,0 +1,52 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+  background: #a71809;
+  color: white;
+}
+
+.container {
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 1.752rem;
+  font-weight: 700;
+  margin: 0.75rem 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: inherit;
+  margin-bottom: 10px;
+}
+
+span {
+  border-bottom: 1px solid white;
+  margin-bottom: 1.25rem;
+}
